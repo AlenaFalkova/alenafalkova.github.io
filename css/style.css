@@ -1,0 +1,121 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    color: black;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+    float: left;
+}
+
+a {
+    color: darkblue;
+}
+
+a:hover {
+    color: darkslategray;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Стили для шапки*/
+
+header {
+    width: 98%;
+    padding: 1%;
+    background: linear-gradient(to bottom left, rosybrown, #fff0e6);
+    border-bottom: 2px solid saddlebrown;
+    float: left;
+    border-radius: 10px;
+}
+
+header #logo {
+    width: 25%;
+    float: left;
+}
+
+header #logo a {
+    font-size: 1.5em;
+    font-family: cursive;
+    color: darkred;
+    text-decoration: none;
+}
+
+header #menuHeader {
+    width: 65%;
+    float: left;
+}
+
+header #menuHeader div {
+    float: left;
+    margin-right: 10%;
+    font-family: cursive;
+}
+
+header #menuHeader div:hover {
+    background-color: #eee4df;
+    border-radius: 5px;
+}
+
+header #menuHeader div a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Стили для футер */
+
+footer {
+    width: 98%;
+    padding: 1%;
+    background: linear-gradient(to top, rosybrown, #fff0e6);
+    border-top: 2px solid saddlebrown;
+    float: left;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+footer #links {
+    float: left;
+    width: 50%;
+}
+
+footer #sources {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+/* Стили для основной части */
+
+#wrapper {
+    width: 100%;
+    float: left;
+    background-color: #f9efed;
+}
+
+#wrapper #leftMenu {
+    width: 21%;
+    float: left;
+    padding: 2%;
+    border-right: 2px solid saddlebrown;
+}
+
+#wrapper #content {
+    width: 70%;
+    float: left;
+    padding: 2%;
+}
